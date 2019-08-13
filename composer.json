@@ -1,0 +1,17 @@
+{
+    "name": "OpenMageModuleFostering/Cdr_PureChat",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Pure Chat for Magento.
+Chat with you visitors, while they shop on your website.",
+    "authors": [
+    {
+        "name": "Cdr",
+        "email": "paul@ketelle.co.uk"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Cdr_PureChat</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Pure Chat for Magento.&#xD;
+Chat with you visitors, while they shop on your website.</summary>
+    <description>Pure Chat for Magento.&#xD;
+&#xD;
+Engage with your customers as they visit your website with Pure Chats easy to use, live chat service that's 100% free.</description>
+    <notes>1.0.0 Release</notes>
+    <authors><author><name>Cdr</name><user>PaulKetelle</user><email>paul@ketelle.co.uk</email></author></authors>
+    <date>2014-02-12</date>
+    <time>16:28:07</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Cdr_PureChat.xml" hash="cba13cea0d8459c6039e9e4f74e9e995"/></dir></target><target name="magecommunity"><dir name="Cdr"><dir name="PureChat"><dir><dir name="Block"><file name="Button.php" hash="89bd379a968d4b8ce7812bb3f635d510"/><file name="Jsheader.php" hash="ee7d8ed3dc7203e188084c06008cde9a"/></dir><dir name="Helper"><file name="Data.php" hash="1f32643d2b238ea73b390e3cec4c2d37"/></dir><dir name="etc"><file name="adminhtml.xml" hash="cd1b45974501bfe3382a4512ad4f2cc7"/><file name="config.xml" hash="4b2c7f15b5d399b6e20898911dd15e77"/><file name="system.xml" hash="a09ccaee77dc5d8b9c852c1608de6b10"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="purechat.xml" hash="87e39b0b2f38af2a50240b295f482822"/></dir><dir name="template"><dir name="purechat"><file name="button.phtml" hash="e38d0c09abc5abdc0d4279e26f8cc602"/><file name="js.phtml" hash="ffb482bde1510d4adb40f1c9bd460916"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="cdr"><dir name="purechat"><dir><dir name="css"><file name="purechat.css" hash="daf30f1164783333d76ace698bd5e18f"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
